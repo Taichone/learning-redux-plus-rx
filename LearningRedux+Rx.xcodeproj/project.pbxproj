@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		52CD64172C5388C4007CA736 /* LearningRedux_RxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CD64162C5388C4007CA736 /* LearningRedux_RxApp.swift */; };
-		52CD64192C5388C4007CA736 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CD64182C5388C4007CA736 /* ContentView.swift */; };
+		52CD64172C5388C4007CA736 /* LearningReduxRxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CD64162C5388C4007CA736 /* LearningReduxRxApp.swift */; };
+		52CD64192C5388C4007CA736 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CD64182C5388C4007CA736 /* CounterView.swift */; };
 		52CD641B2C5388C5007CA736 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52CD641A2C5388C5007CA736 /* Assets.xcassets */; };
 		52CD641E2C5388C5007CA736 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52CD641D2C5388C5007CA736 /* Preview Assets.xcassets */; };
 		52CD64282C5388C5007CA736 /* LearningRedux_RxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CD64272C5388C5007CA736 /* LearningRedux_RxTests.swift */; };
 		52CD64322C5388C5007CA736 /* LearningRedux_RxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CD64312C5388C5007CA736 /* LearningRedux_RxUITests.swift */; };
 		52CD64342C5388C5007CA736 /* LearningRedux_RxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CD64332C5388C5007CA736 /* LearningRedux_RxUITestsLaunchTests.swift */; };
+		52CD64422C5391C6007CA736 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 52CD64412C5391C6007CA736 /* RxSwift */; };
+		52CD64452C539205007CA736 /* ReSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 52CD64442C539205007CA736 /* ReSwift */; };
+		52CD64472C5392DE007CA736 /* RxStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CD64462C5392DE007CA736 /* RxStore.swift */; };
+		52CD644A2C539402007CA736 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 52CD64492C539402007CA736 /* RxRelay */; };
+		52CD644C2C53944D007CA736 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 52CD644B2C53944D007CA736 /* RxCocoa */; };
+		52CD644E2C5394E2007CA736 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CD644D2C5394E2007CA736 /* AppStore.swift */; };
+		52CD64522C5395F7007CA736 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CD64512C5395F7007CA736 /* AppState.swift */; };
+		52CD64542C53960A007CA736 /* CountState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CD64532C53960A007CA736 /* CountState.swift */; };
+		52CD645D2C53A19C007CA736 /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CD645C2C53A19C007CA736 /* AppReducer.swift */; };
+		52CD645F2C53A1A8007CA736 /* CountReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CD645E2C53A1A8007CA736 /* CountReducer.swift */; };
+		52CD64612C53D69D007CA736 /* CounterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CD64602C53D69D007CA736 /* CounterViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +46,8 @@
 
 /* Begin PBXFileReference section */
 		52CD64132C5388C4007CA736 /* LearningRedux+Rx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LearningRedux+Rx.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		52CD64162C5388C4007CA736 /* LearningRedux_RxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningRedux_RxApp.swift; sourceTree = "<group>"; };
-		52CD64182C5388C4007CA736 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		52CD64162C5388C4007CA736 /* LearningReduxRxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningReduxRxApp.swift; sourceTree = "<group>"; };
+		52CD64182C5388C4007CA736 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 		52CD641A2C5388C5007CA736 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52CD641D2C5388C5007CA736 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		52CD64232C5388C5007CA736 /* LearningRedux+RxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LearningRedux+RxTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +55,13 @@
 		52CD642D2C5388C5007CA736 /* LearningRedux+RxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LearningRedux+RxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52CD64312C5388C5007CA736 /* LearningRedux_RxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningRedux_RxUITests.swift; sourceTree = "<group>"; };
 		52CD64332C5388C5007CA736 /* LearningRedux_RxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningRedux_RxUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		52CD64462C5392DE007CA736 /* RxStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxStore.swift; sourceTree = "<group>"; };
+		52CD644D2C5394E2007CA736 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
+		52CD64512C5395F7007CA736 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		52CD64532C53960A007CA736 /* CountState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountState.swift; sourceTree = "<group>"; };
+		52CD645C2C53A19C007CA736 /* AppReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
+		52CD645E2C53A1A8007CA736 /* CountReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountReducer.swift; sourceTree = "<group>"; };
+		52CD64602C53D69D007CA736 /* CounterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +69,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52CD644A2C539402007CA736 /* RxRelay in Frameworks */,
+				52CD64422C5391C6007CA736 /* RxSwift in Frameworks */,
+				52CD644C2C53944D007CA736 /* RxCocoa in Frameworks */,
+				52CD64452C539205007CA736 /* ReSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +100,7 @@
 				52CD64262C5388C5007CA736 /* LearningRedux+RxTests */,
 				52CD64302C5388C5007CA736 /* LearningRedux+RxUITests */,
 				52CD64142C5388C4007CA736 /* Products */,
+				52CD64482C539402007CA736 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,8 +117,15 @@
 		52CD64152C5388C4007CA736 /* LearningRedux+Rx */ = {
 			isa = PBXGroup;
 			children = (
-				52CD64162C5388C4007CA736 /* LearningRedux_RxApp.swift */,
-				52CD64182C5388C4007CA736 /* ContentView.swift */,
+				52CD64162C5388C4007CA736 /* LearningReduxRxApp.swift */,
+				52CD64182C5388C4007CA736 /* CounterView.swift */,
+				52CD64602C53D69D007CA736 /* CounterViewModel.swift */,
+				52CD64562C539AAB007CA736 /* ActionCreator */,
+				52CD64552C5398BD007CA736 /* Entity */,
+				52CD64572C539B8B007CA736 /* Middleware */,
+				52CD645B2C53A18C007CA736 /* Reducer */,
+				52CD64502C5395E4007CA736 /* State */,
+				52CD644F2C5394EC007CA736 /* Store */,
 				52CD641A2C5388C5007CA736 /* Assets.xcassets */,
 				52CD641C2C5388C5007CA736 /* Preview Content */,
 			);
@@ -127,6 +157,61 @@
 			path = "LearningRedux+RxUITests";
 			sourceTree = "<group>";
 		};
+		52CD64482C539402007CA736 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52CD644F2C5394EC007CA736 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				52CD644D2C5394E2007CA736 /* AppStore.swift */,
+				52CD64462C5392DE007CA736 /* RxStore.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		52CD64502C5395E4007CA736 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				52CD64512C5395F7007CA736 /* AppState.swift */,
+				52CD64532C53960A007CA736 /* CountState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		52CD64552C5398BD007CA736 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		52CD64562C539AAB007CA736 /* ActionCreator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ActionCreator;
+			sourceTree = "<group>";
+		};
+		52CD64572C539B8B007CA736 /* Middleware */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Middleware;
+			sourceTree = "<group>";
+		};
+		52CD645B2C53A18C007CA736 /* Reducer */ = {
+			isa = PBXGroup;
+			children = (
+				52CD645C2C53A19C007CA736 /* AppReducer.swift */,
+				52CD645E2C53A1A8007CA736 /* CountReducer.swift */,
+			);
+			path = Reducer;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +228,12 @@
 			dependencies = (
 			);
 			name = "LearningRedux+Rx";
+			packageProductDependencies = (
+				52CD64412C5391C6007CA736 /* RxSwift */,
+				52CD64442C539205007CA736 /* ReSwift */,
+				52CD64492C539402007CA736 /* RxRelay */,
+				52CD644B2C53944D007CA736 /* RxCocoa */,
+			);
 			productName = "LearningRedux+Rx";
 			productReference = 52CD64132C5388C4007CA736 /* LearningRedux+Rx.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +306,10 @@
 				Base,
 			);
 			mainGroup = 52CD640A2C5388C4007CA736;
+			packageReferences = (
+				52CD64402C5391C6007CA736 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				52CD64432C539205007CA736 /* XCRemoteSwiftPackageReference "ReSwift" */,
+			);
 			productRefGroup = 52CD64142C5388C4007CA736 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +352,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52CD64192C5388C4007CA736 /* ContentView.swift in Sources */,
-				52CD64172C5388C4007CA736 /* LearningRedux_RxApp.swift in Sources */,
+				52CD64192C5388C4007CA736 /* CounterView.swift in Sources */,
+				52CD64472C5392DE007CA736 /* RxStore.swift in Sources */,
+				52CD64612C53D69D007CA736 /* CounterViewModel.swift in Sources */,
+				52CD645D2C53A19C007CA736 /* AppReducer.swift in Sources */,
+				52CD64522C5395F7007CA736 /* AppState.swift in Sources */,
+				52CD644E2C5394E2007CA736 /* AppStore.swift in Sources */,
+				52CD645F2C53A1A8007CA736 /* CountReducer.swift in Sources */,
+				52CD64172C5388C4007CA736 /* LearningReduxRxApp.swift in Sources */,
+				52CD64542C53960A007CA736 /* CountState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,6 +684,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		52CD64402C5391C6007CA736 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.7.1;
+			};
+		};
+		52CD64432C539205007CA736 /* XCRemoteSwiftPackageReference "ReSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReSwift/ReSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		52CD64412C5391C6007CA736 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52CD64402C5391C6007CA736 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		52CD64442C539205007CA736 /* ReSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52CD64432C539205007CA736 /* XCRemoteSwiftPackageReference "ReSwift" */;
+			productName = ReSwift;
+		};
+		52CD64492C539402007CA736 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52CD64402C5391C6007CA736 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		52CD644B2C53944D007CA736 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52CD64402C5391C6007CA736 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 52CD640B2C5388C4007CA736 /* Project object */;
 }
